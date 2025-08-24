@@ -176,7 +176,7 @@ header .navbar ul li a:hover {
     right: 0;
   }
 }
-/* hamburger icon ends */ 
+/* hamburger icon ends */
 
 /* hero section starts*/
 .home {
@@ -765,10 +765,10 @@ header .navbar ul li a:hover {
 /* work section ends */
 
 /* experience section starts */
-.experience {
+#experience {
   background: #cbdcf7;
-  padding: 50px 0;   /* kasih jarak atas bawah */
-  height: auto;      /* ✅ otomatis menyesuaikan konten */
+  padding: 40px 0;   /* jarak atas & bawah */
+  height: auto;      /* ✅ tinggi otomatis sesuai konten */
 }
 
 .experience .timeline {
@@ -788,7 +788,6 @@ header .navbar ul li a:hover {
   margin-left: -3px;
   z-index: -2;
 }
-
 .experience .container {
   padding: 10px 40px;
   position: relative;
@@ -1248,32 +1247,3 @@ form .button-area {
   top: calc(100% - 12rem);
 }
 /* scroll top ends */
-/* Tablet (<= 768px) */
-/* @media (max-width: 768px) {
-  .timeline .container {
-    width: 100%;
-    padding-left: 20px;
-    padding-right: 20px;
-  }
-
-  .heading {
-    font-size: 22px;
-    text-align: center;
-  }
-} */
-
-/* Mobile (<= 480px) */
-/* @media (max-width: 480px) {
-  body {
-    font-size: 14px;
-  }
-
-  .timeline .content {
-    padding: 15px;
-  }
-
-  nav ul {
-    flex-direction: column;
-    gap: 10px;
-  }
-} */
