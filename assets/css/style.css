@@ -1271,6 +1271,10 @@ form .button-area {
     padding-bottom: 3rem;
   }
 
+  .home {
+    background: #CBDCF7;
+  }
+
   /* Perbaiki hero image biar center */
   .home .image img {
     margin: 2rem auto;
