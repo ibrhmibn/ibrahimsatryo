@@ -1245,3 +1245,49 @@ form .button-area {
   top: calc(100% - 12rem);
 }
 /* scroll top ends */
+
+/* CSS khusus untuk HP / layar kecil */
+@media only screen and (max-width: 600px) {
+
+  body {
+    background: #fff; /* samakan warna dengan section biar tidak ada celah */
+  }
+
+  /* Setiap section biar penuh layar */
+  .about,
+  .skills,
+  .education,
+  .work,
+  .experience,
+  .footer {
+    min-height: 100vh;
+    height: auto;
+  }
+
+  /* Hilangkan margin bawaan yang bikin gap */
+  section {
+    margin: 0;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+
+  /* Perbaiki hero image biar center */
+  .home .image img {
+    margin: 2rem auto;
+    display: block;
+    width: 90%;
+    height: auto;
+  }
+
+  /* Tombol di hero biar tidak overlap */
+  .home .btn {
+    position: relative;
+    margin-top: 2rem;
+  }
+
+  /* Skills grid biar pas */
+  .skills .container .row {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+  }
+}
