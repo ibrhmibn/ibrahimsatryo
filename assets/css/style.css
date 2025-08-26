@@ -369,6 +369,25 @@ header .navbar ul li a:hover {
   text-align: center;
   flex: 1 1 35rem;
 }
+
+/* ===== ABOUT IMAGE FIX ===== */
+.about .image img {
+  width: 100%;
+  height: auto;
+  max-width: 400px;   /* biar pas di layar kecil */
+  border-radius: 15px;
+  object-fit: cover;
+  display: block;
+  margin: 0 auto;     /* center */
+}
+
+/* khusus layar besar (desktop) */
+@media screen and (min-width: 1024px) {
+  .about .image img {
+    max-width: 500px; /* gambar lebih besar tapi tetap proporsional */
+  }
+}
+
 .about .row .image img {
   margin: 1rem;
   width: 100%;
